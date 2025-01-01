@@ -1,0 +1,11 @@
+.layout-deck {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 1rem; /* Spacing between columns */
+
+  .left, .right {
+    padding: .5rem;
+  }
+}
+
+

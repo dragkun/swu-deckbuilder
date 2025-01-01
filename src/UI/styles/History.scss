@@ -1,0 +1,33 @@
+.history-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .history-date {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        width: 50%;
+    }
+    
+    .history-changes {
+        margin-bottom: 1rem;
+        text-align: right;
+        width: 50%;
+    }
+}
+
+.history-change {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    .added {
+        color: green;
+    }
+    .removed {
+        color: red;
+    }   
+}
+
+.history {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #3d3d3d;
+}

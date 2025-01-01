@@ -1,0 +1,40 @@
+.subtitle {
+  font-size: .75rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.deck-cards button {
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-top: .5rem;
+  font-size: .75rem;
+}
+
+.deck-stats {
+  margin-top: 1rem;
+  border-top: 1px solid #3d3d3d;
+  border-bottom: 1px solid #3d3d3d;
+}
+
+.active {
+  color: #ffeb3b;
+  font-weight: 600;
+  border-bottom: 2px solid #ffeb3b;
+  padding-bottom: 4px;
+}
+
+.deck-export-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  margin-top: 1rem;
+
+  button {
+    padding: .1rem .5rem;
+    font-size: .75rem;
+  } 
+}

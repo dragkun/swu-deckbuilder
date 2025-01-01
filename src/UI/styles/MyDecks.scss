@@ -1,0 +1,40 @@
+.layout {
+  display: grid;
+  grid-template-columns: 2fr .75fr; 
+  gap: 1rem; /* Spacing between columns */
+}
+
+[data-theme="light"] {
+  .header {
+    .left, .right, .main {
+      padding: 0 1rem;
+      margin: 0;
+    }
+    .main {
+      border-bottom: 1px solid #3d3d3d;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .header {
+    .left, .right, .main {
+      padding: 0 1rem;
+      margin: 0;
+    }
+    .main {
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+.main {
+  padding: .25rem;
+  border: 1px solid var(--muted); /* Optional for visual clarity */
+}
+
+.right {
+  li {
+    padding: 0 0 10px 0;
+  }
+}

@@ -1,0 +1,32 @@
+.type-header {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  margin-top: .5rem;
+
+  &.sideboard {
+    color: rgb(191, 28, 34)
+  }
+}
+
+.deck-card-list-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: .5rem;
+
+  button {
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-top: .5rem;
+    font-size: .75rem;
+  }
+
+  div {
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-top: .5rem;
+    font-size: .75rem;
+    color: rgb(255, 196, 0);
+  }
+}

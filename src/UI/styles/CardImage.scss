@@ -1,0 +1,18 @@
+.zoom {
+  transition: transform 0.2s; /* Smooth transition for zoom */
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1000;
+}
+
+.flip-card {
+  position: absolute !important;
+  top: -20px;
+  left: 0;
+  z-index: 1000;
+  font-size: 2rem;
+  color: #ffeb3b;
+  border-bottom: none !important;
+}

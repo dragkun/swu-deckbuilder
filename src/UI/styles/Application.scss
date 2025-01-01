@@ -1,0 +1,15 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Prevent double scrollbars */
+  
+  .app-content {
+    flex: 1;
+    min-height: 0; /* Important for nested flex scrolling */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Allow content to scroll */
+    overflow-x: hidden;
+  }
+}
