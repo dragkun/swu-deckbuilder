@@ -25,6 +25,10 @@ npm install
 ```
 
 ## Usage
+To use the application you will need to generate or download the resouce files.  
+These files include all the card images and card data, and are not included in the source code.
+see [RESOURCES](./docs/RESOURCES.md) for more information
+
 
 To start the application:
 
